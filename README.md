@@ -121,6 +121,16 @@ Interpretation:
 ### 5) Conclusion metier
 Le pipeline atteint un bon niveau de precision pour l'estimation immobiliere. Le modele XGBoost est le plus adapte dans ce contexte, avec un compromis robuste entre precision predictive et stabilite des resultats.
 
+## Preuves visuelles (captures)
+
+### Modele enregistre dans le Model Registry
+
+![Modele enregistre dans le registry](assets/images/model-registry-proof.png)
+
+### Inference du modele
+
+![Resultats d'inference](assets/images/inference-proof.png)
+
 ## Execution recommandee
 1. ouvrir le notebook dans Snowflake
 2. verifier les packages
